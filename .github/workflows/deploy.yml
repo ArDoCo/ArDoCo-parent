@@ -19,6 +19,6 @@ jobs:
           repositories: '[{ "id": "github", "url": "https://maven.pkg.github.com/${GITHUB_REPOSITORY}"}]'
           servers: '[{ "id": "github", "username": "x-access-token", "password": "${{ secrets.GITHUB_TOKEN }}" }]'
       - name: Publish package
-        run: mvn -B deploy
+        run: mvn -B deploy -Dregistry=https://maven.pkg.github.com/ArDoCo/ArDoCo-parent
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

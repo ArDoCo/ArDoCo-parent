@@ -42,14 +42,9 @@
         <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-snapshots</url>
     </repository>
     <repository>
-        <id>github NLWrapper</id>
-        <name>GitHub kit-sdq Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/NLWrapper</url>
-    </repository>
-    <repository>
-        <id>github GraphImprove</id>
-        <name>GitHub kit-sdq Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/PARSEGraphImprove</url>
+        <id>github ArDoCo</id>
+        <name>GitHub Ardoco Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/ArDoCo/</url>
     </repository>
     </repositories>
 

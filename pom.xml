@@ -53,6 +53,7 @@
         <version>0.0.9</version>
     </parent>
 
+<dependencyManagement>
     <dependencies>
         <!-- Eclipse collections -->
         <dependency>
@@ -106,8 +107,10 @@
           <version>${commons-lang.version}</version>
         </dependency>
     </dependencies>
+</dependencyManagement>
 
     <build>
+    <pluginManagement>
     <plugins>
         <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -145,6 +148,7 @@
             </executions>
         </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
   <distributionManagement>

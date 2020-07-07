@@ -140,12 +140,12 @@
     </pluginManagement>
   </build>
 
-<!--   <distributionManagement>
+  <distributionManagement>
     <repository>
         <id>github</id>
         <name>GitHub ArDoCo Apache Maven Packages</name>
         <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
    </repository>
   </distributionManagement>
- -->
+
 </project>

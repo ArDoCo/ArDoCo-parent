@@ -144,7 +144,7 @@
     <repository>
         <id>github</id>
         <name>GitHub ArDoCo Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+        <url>https://maven.pkg.github.com/ArDoCo/</url>
    </repository>
   </distributionManagement>
 

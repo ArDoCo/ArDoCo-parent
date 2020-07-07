@@ -42,8 +42,8 @@
     </repository>
     <repository>
         <id>github</id>
-        <name>GitHub ArDoCo-parent Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+        <name>GitHub ArDoCo Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo</url>
     </repository>
     </repositories>
 
@@ -144,7 +144,7 @@
     <repository>
         <id>github</id>
         <name>GitHub ArDoCo Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/</url>
+        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo</url>
    </repository>
   </distributionManagement>
 

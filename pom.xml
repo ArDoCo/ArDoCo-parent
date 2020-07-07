@@ -23,6 +23,7 @@
         <eclipse.collections.version>9.2.0</eclipse.collections.version>
         <nlwrapper.version>0.0.4</nlwrapper.version>
         <graphimprove.version>0.0.4</graphimprove.version>
+        <commons-lang.version>3.3</commons-lang.version>
     </properties>
 
     <issueManagement>
@@ -112,6 +113,12 @@
             <artifactId>hamcrest-library</artifactId>
             <version>2.1</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>${commons-lang.version}</version>
         </dependency>
     </dependencies>
 

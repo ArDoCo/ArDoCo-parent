@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.kit.ipd</groupId>
   <artifactId>ArDoCo-parent</artifactId>
-  <version>0.0.5-beta4</version>
+  <version>0.0.5</version>
   <packaging>pom</packaging>
 
   <name>ArDoCo-parent</name>
@@ -42,8 +42,8 @@
     </repository>
     <repository>
         <id>github</id>
-        <name>GitHub ArDoCo Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo</url>
+        <name>GitHub ArDoCo-parent Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
     </repository>
     </repositories>
 
@@ -144,7 +144,7 @@
     <repository>
         <id>github</id>
         <name>GitHub ArDoCo Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo</url>
+        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
    </repository>
   </distributionManagement>
 

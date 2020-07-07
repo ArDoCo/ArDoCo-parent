@@ -73,30 +73,6 @@
             <version>${nlwrapper.version}</version>
         </dependency>
 
-        <!-- INDIRECT -->
-        <dependency>
-            <groupId>edu.kit.ipd.indirect</groupId>
-            <artifactId>textSNLP</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>edu.kit.ipd.indirect</groupId>
-            <artifactId>textNER</artifactId>
-        </dependency>
-
-        <!-- PARSE -->
-        <dependency>
-            <groupId>edu.kit.ipd.parse</groupId>
-            <artifactId>coref</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>edu.kit.ipd.parse</groupId>
-            <artifactId>graphBuilder</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>edu.kit.ipd.parse</groupId>
-            <artifactId>luna</artifactId>
-        </dependency>
-
         <!-- Eclipse collections -->
         <dependency>
           <groupId>org.eclipse.collections</groupId>
@@ -107,12 +83,6 @@
           <groupId>org.eclipse.collections</groupId>
           <artifactId>eclipse-collections</artifactId>
           <version>${eclipse.collections.version}</version>
-        </dependency>
-
-        <!-- Others -->
-        <dependency>
-          <groupId>org.apache.commons</groupId>
-          <artifactId>commons-lang3</artifactId>
         </dependency>
 
         <dependency>

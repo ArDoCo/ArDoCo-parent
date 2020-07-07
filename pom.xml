@@ -163,8 +163,8 @@
   <distributionManagement>
     <repository>
         <id>github</id>
-        <name>GitHub kit-sdq Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+        <name>GitHub ArDoCo Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/ArDoCo/</url>
    </repository>
   </distributionManagement>
 

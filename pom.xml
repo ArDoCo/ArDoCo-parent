@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.kit.ipd</groupId>
   <artifactId>ArDoCo-parent</artifactId>
-  <version>0.0.5-beta3</version>
+  <version>0.0.5-beta4</version>
   <packaging>pom</packaging>
 
   <name>ArDoCo-parent</name>

@@ -21,8 +21,6 @@
 
         <jena.version>3.7.0</jena.version>
         <eclipse.collections.version>9.2.0</eclipse.collections.version>
-        <nlwrapper.version>0.0.4</nlwrapper.version>
-        <graphimprove.version>0.0.4</graphimprove.version>
         <commons-lang.version>3.3</commons-lang.version>
     </properties>
 
@@ -45,7 +43,7 @@
     <repository>
         <id>github ArDoCo</id>
         <name>GitHub Ardoco Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/</url>
+        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
     </repository>
     </repositories>
 
@@ -56,19 +54,6 @@
     </parent>
 
     <dependencies>
-        <!-- ArDoCo -->
-        <dependency>
-            <groupId>edu.kit.ipd</groupId>
-            <artifactId>GraphImprove</artifactId>
-            <version>${graphimprove.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>edu.kit.ipd</groupId>
-            <artifactId>NLWrapper</artifactId>
-            <version>${nlwrapper.version}</version>
-        </dependency>
-
         <!-- Eclipse collections -->
         <dependency>
           <groupId>org.eclipse.collections</groupId>

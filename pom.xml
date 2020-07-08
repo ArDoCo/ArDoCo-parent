@@ -1,8 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+      <groupId>edu.kit.ipd.indirect</groupId>
+      <artifactId>indirect</artifactId>
+      <version>0.0.9</version>
+  </parent>
+
   <groupId>edu.kit.ipd</groupId>
   <artifactId>ArDoCo-parent</artifactId>
-  <version>0.0.6</version>
+  <version>${revision}</version>
   <packaging>pom</packaging>
 
   <name>ArDoCo-parent</name>
@@ -46,12 +53,6 @@
         <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
     </repository>
     </repositories>
-
-    <parent>
-        <groupId>edu.kit.ipd.indirect</groupId>
-        <artifactId>indirect</artifactId>
-        <version>0.0.9</version>
-    </parent>
 
 <dependencyManagement>
     <dependencies>
@@ -109,7 +110,7 @@
     </dependencies>
 </dependencyManagement>
 
-    <build>
+  <build>
     <pluginManagement>
     <plugins>
       <plugin>
@@ -136,7 +137,7 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
+      </plugins>
     </pluginManagement>
   </build>
 

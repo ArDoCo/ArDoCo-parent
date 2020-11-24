@@ -29,6 +29,10 @@
         <jena.version>3.7.0</jena.version>
         <eclipse.collections.version>9.2.0</eclipse.collections.version>
         <commons-lang.version>3.3</commons-lang.version>
+
+        <sonar.projectKey>ArDoCo_ArDoCo-parent</sonar.projectKey>
+        <sonar.organization>ardoco</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <issueManagement>

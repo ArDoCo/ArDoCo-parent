@@ -7,9 +7,9 @@
       <version>0.0.9</version>
   </parent>
 
-  <groupId>edu.kit.ipd</groupId>
-  <artifactId>ArDoCo-parent</artifactId>
-  <version>0.1.1</version>
+  <groupId>edu.kit.ipd.ardoco</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>ArDoCo-parent</name>
@@ -41,21 +41,21 @@
     </issueManagement>
 
     <repositories>
-    <repository>
-        <id>ipdNexus-releases</id>
-        <name>IPD-Repository</name>
-        <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-releases</url>
-    </repository>
-    <repository>
-        <id>ipdNexus-snapshots</id>
-        <name>IPD-Repository</name>
-        <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-snapshots</url>
-    </repository>
-    <repository>
-        <id>github</id>
-        <name>GitHub ArDoCo-parent Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
-    </repository>
+      <repository>
+          <id>ipdNexus-releases</id>
+          <name>IPD-Repository</name>
+          <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-releases</url>
+      </repository>
+      <repository>
+          <id>ipdNexus-snapshots</id>
+          <name>IPD-Repository</name>
+          <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-snapshots</url>
+      </repository>
+      <repository>
+          <id>github</id>
+          <name>GitHub ArDoCo-parent Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+      </repository>
     </repositories>
 
 <dependencyManagement>
@@ -147,10 +147,15 @@
 
   <distributionManagement>
     <repository>
-        <id>github</id>
-        <name>GitHub ArDoCo Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
-   </repository>
+      <id>github</id>
+      <name>GitHub ArDoCo Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+    </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub ArDoCo Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/ArDoCo/ArDoCo-parent</url>
+    </snapshotRepository>
   </distributionManagement>
 
 </project>

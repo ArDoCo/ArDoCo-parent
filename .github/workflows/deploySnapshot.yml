@@ -27,6 +27,6 @@ jobs:
       with:
         servers: '[{ "id": "github", "username": "x-access-token", "password": "${{ secrets.GITHUB_TOKEN }}" }]'
     - name: Verify with Maven
-      run: mvn -B verify --file pom.xml
+      run: mvn -B verify
     - name: Publish Package
       run: mvn -B deploy

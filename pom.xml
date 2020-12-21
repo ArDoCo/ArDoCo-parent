@@ -23,8 +23,6 @@
         <java.version>11</java.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-        <java.optimize>true</java.optimize>
-        <java.debug>true</java.debug>
 
         <jena.version>3.7.0</jena.version>
         <eclipse.collections.version>9.2.0</eclipse.collections.version>
@@ -125,8 +123,6 @@
             <release>${java.version}</release>
             <source>${java.version}</source>
             <target>${java.version}</target>
-            <optimize>${java.optimize}</optimize>
-            <debug>${java.debug}</debug>
         </configuration>
       </plugin>
         <plugin>

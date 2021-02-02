@@ -1,9 +1,9 @@
-name: Java Maven Deploy
+name: Maven Deploy
 
 on:
   push:
-    tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+    branches:
+      - 'master'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,5 +27,7 @@ jobs:
         uses: whelk-io/maven-settings-xml-action@v14
         with:
           servers: '[{ "id": "github", "username": "x-access-token", "password": "${{ secrets.GITHUB_TOKEN }}" }]'
-      - name: Publish package
+      - name: Verify with Maven
+        run: mvn -B clean package
+      - name: Publish Package
         run: mvn -B deploy

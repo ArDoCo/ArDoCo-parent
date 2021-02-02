@@ -22,7 +22,7 @@
 
         <java.version>11</java.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
 
         <jena.version>3.7.0</jena.version>
         <eclipse.collections.version>9.2.0</eclipse.collections.version>

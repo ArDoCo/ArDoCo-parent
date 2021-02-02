@@ -3,7 +3,8 @@ name: Maven Verify
 on:
   push:
     branches-ignore:
-      - 'master'
+      - main
+      - master
   pull_request:
     types: [opened, synchronize, reopened]
 

@@ -3,7 +3,8 @@ name: Maven Deploy
 on:
   push:
     branches:
-      - 'master'
+      - main
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -27,7 +27,7 @@
         <jena.version>3.7.0</jena.version>
         <eclipse.collections.version>9.2.0</eclipse.collections.version>
         <commons-lang.version>3.11</commons-lang.version>
-        <log4j.version>2.13.2</log4j.version>
+        <log4j.version>2.14.0</log4j.version>
 
         <sonar.projectKey>ArDoCo_ArDoCo-parent</sonar.projectKey>
         <sonar.organization>ardoco</sonar.organization>

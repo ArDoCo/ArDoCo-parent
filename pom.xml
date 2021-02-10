@@ -12,9 +12,6 @@
 
     <properties>
       <java.version>14</java.version>
-      <maven.compiler.source>${java.version}</maven.compiler.source>
-      <maven.compiler.target>${java.version}</maven.compiler.target>
-      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
       <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
       <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
@@ -166,23 +163,22 @@
 </dependencyManagement>
 
   <build>
-    <pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>${maven-compiler-plugin.version}</version>
+        <version>3.8.1</version>
         <configuration>
             <release>${java.version}</release>
             <source>${java.version}</source>
             <target>${java.version}</target>
-            <encoding>${project.build.sourceEncoding}</encoding>
+            <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
-            <version>${maven-source-plugin.version}</version>
+            <version>3.2.1</version>
             <executions>
                 <execution>
                     <id>attach-sources</id>
@@ -194,7 +190,6 @@
             </executions>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
 
   <distributionManagement>

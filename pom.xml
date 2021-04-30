@@ -32,12 +32,12 @@
 		<repository>
 			<id>ipdNexus-releases</id>
 			<name>IPD-Repository</name>
-			<url>http://bob.ipd.kit.edu/nexus/repository/maven-public-releases</url>
+			<url>https://bob.ipd.kit.edu/nexus/repository/maven-public-releases</url>
 		</repository>
 		<repository>
 			<id>ipdNexus-snapshots</id>
 			<name>IPD-Repository</name>
-			<url>http://bob.ipd.kit.edu/nexus/repository/maven-public-snapshots</url>
+			<url>https://bob.ipd.kit.edu/nexus/repository/maven-public-snapshots</url>
 		</repository>
 		<repository>
 			<id>github</id>

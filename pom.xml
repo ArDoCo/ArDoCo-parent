@@ -13,7 +13,7 @@
 	<url>https://github.com/ArDoCo/ArDoCo-parent</url>
 
 	<properties>
-		<java.version>14</java.version>
+		<java.version>16</java.version>
 
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
@@ -106,14 +106,9 @@
 				<version>0.0.5-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>indirect_parent</artifactId>
-				<version>0.0.12-SNAPSHOT</version>
-			</dependency>
-			<dependency>
 				<groupId>edu.kit.ipd.parse</groupId>
 				<artifactId>luna</artifactId>
-				<version>0.7.4</version>
+				<version>0.7.5</version>
 			</dependency>
 			<dependency>
 				<groupId>edu.kit.ipd.pronat</groupId>
@@ -150,6 +145,21 @@
 				<groupId>edu.kit.ipd.indirect</groupId>
 				<artifactId>textSNLP</artifactId>
 				<version>0.0.6-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.kit.ipd.indirect</groupId>
+				<artifactId>entityRecognizer</artifactId>
+				<version>0.0.7-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.kit.ipd.indirect</groupId>
+				<artifactId>conceptualizer</artifactId>
+				<version>0.0.6-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.kit.ipd.indirect</groupId>
+				<artifactId>coref</artifactId>
+				<version>0.0.5-SNAPSHOT</version>
 			</dependency>
 
 			<!-- Apache Jena -->

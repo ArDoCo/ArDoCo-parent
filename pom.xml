@@ -116,11 +116,6 @@
 				<version>0.0.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>edu.kit.ipd.pronat</groupId>
-				<artifactId>pre_pipeline_data_model</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
-			<dependency>
 				<groupId>edu.kit.ipd.parse</groupId>
 				<artifactId>change_watchdog</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
@@ -130,45 +125,13 @@
 				<artifactId>parseBios</artifactId>
 				<version>1.2-SNAPSHOT</version>
 			</dependency>
-
 			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>depParser</artifactId>
-				<version>0.0.6-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>tokenizer</artifactId>
-				<version>0.0.5-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>graphBuilder</artifactId>
-				<version>0.0.5-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>textSNLP</artifactId>
-				<version>0.0.6-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>entityRecognizer</artifactId>
-				<version>0.0.7-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>conceptualizer</artifactId>
-				<version>0.0.6-SNAPSHOT</version>
-			</dependency>
-			<dependency>
-				<groupId>edu.kit.ipd.indirect</groupId>
-				<artifactId>coref</artifactId>
-				<version>0.0.5-SNAPSHOT</version>
+				<groupId>edu.kit.ipd.pronat</groupId>
+				<artifactId>pre_pipeline_data_model</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<!-- Apache Jena -->
-			<!-- Note: Version >4.0.0 currently causes some issues. Until these are fixed, reverted to version 3.17.0 -->
 			<dependency>
 				<groupId>org.apache.jena</groupId>
 				<artifactId>apache-jena-libs</artifactId>

@@ -132,12 +132,11 @@
 			</dependency>
 
 			<!-- Apache Jena -->
-			<!-- Note: Version >4.0.0 currently causes some issues. Until these are fixed, reverted to version 3.17.0 -->
 			<dependency>
 				<groupId>org.apache.jena</groupId>
 				<artifactId>apache-jena-libs</artifactId>
 				<type>pom</type>
-				<version>3.17.0</version>
+				<version>4.1.0</version>
 			</dependency>
 
 			<!-- Commons -->

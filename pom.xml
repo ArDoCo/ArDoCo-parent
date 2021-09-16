@@ -5,7 +5,7 @@
 
 	<groupId>edu.kit.kastel.mcse.ardoco</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.1.5-SNAPSHOT</version>
+	<version>0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ArDoCo-parent</name>
@@ -13,7 +13,7 @@
 	<url>https://github.com/ArDoCo/ArDoCo-parent</url>
 
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
@@ -93,6 +93,18 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>org.kohsuke.metainf-services</groupId>
+				<artifactId>metainf-services</artifactId>
+				<version>1.8</version>
+				<optional>true</optional>
+			</dependency>
+			<dependency>
+				<groupId>edu.kit.kastel.informalin</groupId>
+				<artifactId>ontology-connector</artifactId>
+				<version>0.1-SNAPSHOT</version>
+			</dependency>
+		
 			<!-- PARSE and INDIRECT -->
 			<dependency>
 				<groupId>edu.kit.ipd.parse</groupId>
